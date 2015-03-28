@@ -1,0 +1,2 @@
+"How is the staging area different from the working directory and the repository? What value do you think it offers?"
+Working directory is the actually folder. Repository is the set of all the files that are monitored. Staging area stores all the changes that are made but not committed yet. Save processing time?
