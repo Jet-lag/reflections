@@ -1,0 +1,18 @@
+  "How did viewing a diff between two versions of a file help you see the bug that was introduced?"
+  It will be difficult to track the changes of a new version of the code after big changes. Using text tracking tools to compare the old version with the new version can save a lot of time and effort in the future. This requires to have all the important old versions saved.
+
+  "How could having easy access to the entire history of a file make you a more efficient programmer in the long term?"
+  Having easy access to the entire history of a file enables people to see all the changes in the past, and they can go back to any specific version if needed.
+  
+  "What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?"
+  Auto-saving may lead to the problem of commiting too often. Commit too oftern basically has the same effect as doesn't commit at all. Because if too many old versions were saved, it takes a lot of time and effort to track the exact one you are looking for. Commit only after one import logic change has been made. This is difficult to do in auto-saving mode. 
+  
+  "Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?"
+  If multiple files are corelated/ work together, usually one change in one of the files leads to changes in all other files. Saving multiple files in one commit can easily track these changes.
+  
+  "How can you use the commands git log and git diff to view the history of files?"
+ use "$ git log" to check all the commits
+ use "$git diff <old ID> <new ID>" to see the changes in the new ID 
+ 
+ "How might using version control make you more confident to make changes that could break something?"
+ I can then always go back to the previous version that works. In the worst case, I just lose the amount of the work I did after that change.
